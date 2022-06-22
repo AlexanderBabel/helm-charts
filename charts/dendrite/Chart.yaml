@@ -15,7 +15,7 @@ dependencies:
   - condition: nats.enabled
     name: nats
     repository: https://nats-io.github.io/k8s/helm/charts/
-    version: 0.16.0
+    version: 0.17.1
   - alias: clientapi
     condition: dendrite.polylithEnabled
     name: common
