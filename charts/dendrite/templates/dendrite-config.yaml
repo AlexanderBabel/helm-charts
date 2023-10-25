@@ -161,6 +161,7 @@ stringData:
         conn_max_lifetime: {{ default .Values.dendrite.database.conn_max_lifetime .Values.mscs.database.conn_max_lifetime }}
       {{- end }}
     room_server:
+      default_room_version: 10
       {{- if .Values.dendrite.polylithEnabled }}
       internal_api:
         listen: http://0.0.0.0:7770
