@@ -1,3 +1,10 @@
+# [dendrite-6.1.1](https://github.com/AlexanderBabel/helm-charts/compare/dendrite-6.1.0...dendrite-6.1.1) (2023-10-25)
+
+
+### Bug Fixes
+
+* dendrite set default room_server version ([b59e754](https://github.com/AlexanderBabel/helm-charts/commit/b59e754843e54e74d797be683b0cb46371bca238))
+
 # [dendrite-6.1.0](https://github.com/AlexanderBabel/helm-charts/compare/dendrite-6.0.2...dendrite-6.1.0) (2022-08-19)
 
 
